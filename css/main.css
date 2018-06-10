@@ -1,0 +1,61 @@
+/*styling the body*/
+body{
+	margin:0;
+	padding: 0;
+}
+/*styling the navitation*/
+/*styling the li tag in the nav*/
+nav li{
+	position: sticky; 
+	/*uses sticky to keep the navigation on top*/
+	padding:0 10px;
+	margin: 0;
+	width:5%;
+	color:#fff;
+	list-style: none;
+	display: inline-block;
+}
+/*styling the nav section*/
+.nav{
+	opacity: 0.8;
+	top:0;
+	left:0;
+	position: fixed;
+	/*position fixed keeps it in place*/
+	width: 100%;
+	padding-bottom:12px;
+	font-size: 14px;
+    line-height: 3.14286;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	cursor:text;
+	/*when the cursor is hovering on the nav it changes to text mode*/
+	height: 44px;
+	margin-top:-10px;
+	background-color: #000;
+	text-align: center;
+}
+.list{
+	width:100%;
+	padding: 0;
+}
+/*styling the anchor tags*/
+a:link, a:active, a:visited{
+	color: #fff;
+	text-decoration: none;
+}
+a:hover, span:hover, i:hover{
+	opacity: 0.5;
+	cursor:pointer;
+	/*when the cursor hovers on an anchor tag it turns into a pointer*/
+}
+/*styling the apple icon*/
+.fab{
+	font-size: 20px;
+}
+/*styling the image in the section tag to make it responsive*/
+.img-bg{
+	width: 100%;
+	height:auto;
+}
